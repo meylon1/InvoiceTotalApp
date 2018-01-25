@@ -36,7 +36,6 @@ public class MainActivity extends Activity implements TextView.OnEditorActionLis
         inputeditText.setOnEditorActionListener(this);
     }
 
-
         @Override
         public void onPointerCaptureChanged(boolean hasCapture) {
 
@@ -82,7 +81,6 @@ public class MainActivity extends Activity implements TextView.OnEditorActionLis
         NumberFormat currency = NumberFormat.getCurrencyInstance();
         discounttextView.setText(currency.format(discountAmount));
         totalTextView.setText(currency.format(total));
-
 
     }
 }
