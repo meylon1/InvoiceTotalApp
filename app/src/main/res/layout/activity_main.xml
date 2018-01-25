@@ -90,7 +90,7 @@
         android:layout_marginRight="16dp" />
 
     <TextView
-        android:id="@+id/DiscountTextview"
+        android:id="@+id/discountTextview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
@@ -103,7 +103,7 @@
         android:layout_marginRight="16dp" />
 
     <TextView
-        android:id="@+id/TotalTextview"
+        android:id="@+id/totalTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
@@ -112,7 +112,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/DiscountTextview"
+        app:layout_constraintTop_toBottomOf="@+id/discountTextview"
         android:layout_marginRight="16dp" />
 
 </android.support.constraint.ConstraintLayout>
